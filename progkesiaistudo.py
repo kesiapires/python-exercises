@@ -1,0 +1,6 @@
+msg = input(" digite algo: ")
+print(msg.isidentifier())
+print("é u alphanumerico?", msg.isalnum())
+print(msg.isprintable())
+print("está em caixa alta?", msg.isupper())
+print("o tipo proqwoikn?", type(msg))
