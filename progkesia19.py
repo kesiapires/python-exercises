@@ -1,3 +1,4 @@
+#sorteio de 4 nomes 
 import random
 n1 = str(input("primeiro nome: "))
 n2 = str(input("segundo nome: "))
