@@ -1,0 +1,15 @@
+#evolução do exercicio 35
+r0 = float(input("digite um valor: "))
+r1 = float(input("digite um valor: "))
+r2 = float(input("digite um valor: "))
+if r0 > r1 + r2 or r1 > r2 + r0 or r2 > r1 + r0:
+    print("Não foi possível formar um triângulo com esses valores.")
+#elif r0 < r1 + r2 and r1 < r2 + r0 and r2 < r1 + r0:
+else:
+    print("Você conseguiu formar um triângulo!")
+    if r0 != r1 != r2 :
+        print("Esse triângulo é escaleno.")
+    elif r0 == r1 == r2 :
+        print("Esse triângulo é equilátero.")
+    else:
+        print("Esse triângulo é isóceles.")
