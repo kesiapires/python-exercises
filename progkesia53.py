@@ -1,3 +1,5 @@
+#Criar programa que leia frase qualquer e diga se ela é um palíndromo
+#desconsiderando os espaços.
 s = ""
 word = str(input("Digite uma frase: ")).strip().lower()
 for k in range (len(word)-1,-1,-1):
