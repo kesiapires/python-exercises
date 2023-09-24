@@ -7,7 +7,7 @@ def ficha(jog='desconhecido', gols=0):
     print(f'O jogador {jog} fez {gols} gols no campeonato.')
 
 nome = str(input(f'Nome do jogador: '))
-g = int(input(f'Número de gols: '))
+g = input(f'Número de gols: ')
 if g.isnumeric():
     g = int(g)
 else:
@@ -15,6 +15,6 @@ else:
 if nome.strip() == '':
     ficha(gols=g)
 else:
-    ficha(n, g)
+    ficha(nome, g)
 
 
