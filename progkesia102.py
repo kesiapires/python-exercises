@@ -21,5 +21,5 @@ def fatorial(numero,show=False):
     return f
 
 #main program
-print(fatorial(5,show=False))
+print(fatorial(5,show=True))
 
