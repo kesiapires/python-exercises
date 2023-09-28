@@ -13,3 +13,9 @@ def aumentarPorcent(valor):
 def diminuirPorcent(valor):
     diminuirPorcente = valor * 0.80
     return diminuirPorcente
+
+
+def moeda(valor):
+   return 'R${:,.2f}'.format(valor)
+
+
