@@ -8,7 +8,7 @@ def metade(valor, formato=False):
 
 
 def aumentarPorcent(valor,porcent, formato=False):
-    aumentarPorcent = valor + (valor/porcent)
+    aumentarPorcent = valor + (valor*porcent)/100
     return aumentarPorcent if formato is False else moeda(aumentarPorcent)
 
 
