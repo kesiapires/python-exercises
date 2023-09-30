@@ -8,6 +8,6 @@ from exercicio109 import moeda
 preco = float(input('Digite um preço: '))
 print(f'A metade de {moeda.moeda(preco)} é {moeda.metade(preco, True)}')
 print(f'O dobro de {moeda.moeda(preco)} é {moeda.dobro(preco, True)}')
-print(f'Aumentando 10% temos {moeda.aumentarPorcent(preco, True)}')
-print(f'Diminuindo 20% temos {moeda.diminuirPorcent(preco, True)}') 
+print(f'Aumentando 10% temos {moeda.aumentarPorcent(preco,10, True)}')
+print(f'Diminuindo 20% temos {moeda.diminuirPorcent(preco,20, True)}') 
 

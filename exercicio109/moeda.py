@@ -7,13 +7,13 @@ def metade(valor, formato=False):
     return metade if formato is False else moeda(metade)
 
 
-def aumentarPorcent(valor, formato=False):
-    aumentarPorcent = valor + (valor/10)
+def aumentarPorcent(valor,porcent, formato=False):
+    aumentarPorcent = valor + (valor/porcent)
     return aumentarPorcent if formato is False else moeda(aumentarPorcent)
 
 
-def diminuirPorcent(valor, formato=False):
-    diminuirPorcente = valor * 0.80
+def diminuirPorcent(valor, porcent, formato=False):
+    diminuirPorcente = valor * (100-porcent)/100
     return diminuirPorcente if formato is False else moeda(diminuirPorcente)
 
 
